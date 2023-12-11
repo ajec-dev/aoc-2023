@@ -28,7 +28,7 @@ def process_line_new(line):
     newList = sorted(numberIndices, key = lambda index: index[0])
     return reduce(lambda s, item: s + item[1], newList, '')
 
-with open('input.txt', 'r') as file:
+with open('input_1.txt', 'r') as file:
     lines = file.readlines()
 
 sum = 0
